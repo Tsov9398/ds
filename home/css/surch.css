@@ -1,0 +1,104 @@
+
+.w {
+    width: 6.87rem;
+    margin: 0 auto;
+}
+
+.surch_head {
+    margin-top: .88rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.surch {
+    width: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 0.7rem; */
+    background: -webkit-linear-gradient(0deg, #000, #a48149);
+    /* border: .04rem solid transparent; */
+    border-radius: 8px;
+    height: 0.7rem;
+}
+
+.surch_ {
+    /* box-sizing: border-box; */
+    height: 0.56rem;
+    width: 5.84rem;
+    background-color: #fff;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sur_back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0.22rem;
+    height: 0.39rem;
+}
+
+.sur_back>img {
+    width: 0.22rem;
+    height: 0.39rem;
+}
+
+.surch_ input {
+    border: none;
+    width: 4.22rem;
+    height: 0.48rem;
+}
+
+.surch_ img:nth-of-type(1) {
+    width: 0.38rem;
+    height: 0.37rem;
+}
+
+.surch_ img:nth-of-type(2) {
+    width: 0.42rem;
+    height: 0.37rem;
+}
+.sur_main{
+    height: 8rem;
+    margin-top: .38rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.sur_main .mian_record{
+    padding: .38rem;
+    box-sizing: border-box;
+    background-color: #fff;
+    height: 2.1rem;
+    border-radius: 12px;
+
+}
+.mian_hot_record{
+    padding: .38rem;
+    box-sizing: border-box;
+    background-color: #fff;
+    height: 5.6rem;
+    border-radius: 12px;
+
+}
+ .record_head{
+    height: 0.3rem;
+    width: 100%;
+
+}
+
+ .record_head h3{
+    font-size: .3rem;
+    float: left;
+    
+}
+.mian_record .record_head>img{
+    float: right;
+    width: 0.34rem;
+    height: 0.34rem;
+}

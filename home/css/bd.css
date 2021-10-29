@@ -1,0 +1,166 @@
+.bd_kind {
+    /* height: 3.42rem; */
+    margin-top: .3rem;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bd_kind .box {
+    width: 1.6rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.bd_pic {
+    width: 0.98rem;
+    height: 1.16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bd_kind .box .bd_pic>img {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .bd_kind .box:nth-of-type(8) .bd_pic>img {
+    width: 1.33rem;
+    height: 0.67rem;
+    margin-bottom: .1rem;
+} */
+
+.bd_kind .box>p {
+    font-size: .24rem;
+    font-weight: 600;
+    margin-top: .12rem;
+}
+
+.bd_banner {
+    position: relative;
+    margin-top: .36rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.2rem;
+}
+
+.bd_banner .bd_banner1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(75, 75, 75, 0.315); */
+}
+.bd_banner p{
+    margin-left: .2rem;
+    
+    color: #fff;
+}
+.bd_banner .mas p:nth-of-type(1){
+    margin-top:1.1rem ;
+    font-size: .3rem;
+    /* color: #fff; */
+}
+.bd_banner .mas p:nth-of-type(2){
+    margin-top: .3rem;
+    font-size: .2rem;
+}
+
+/* 鼠标事件 */
+.dis_none{
+    display: none;
+}
+
+.masking1 {
+    z-index: 999;
+    height: 2.2rem;
+    width: 3.32rem;
+    background-color: rgba(42, 42, 42, 0.657);
+    border-radius: 6px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.masking2 {
+    z-index: 999;
+    height: 2.2rem;
+    width: 3.32rem;
+    background-color: rgba(42, 42, 42, 0.657);
+    border-radius: 6px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.bd_banner .bd_banner1>img {
+    width: 3.32rem;
+    height: 2.2rem;
+}
+
+
+
+
+.bd_nav{
+    margin-top: .6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bd_nav p{
+    font-size: .3rem;
+    color: #aaaaaa;
+}
+.bd_nav p:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bd_nav p:nth-of-type(2)::after{
+    content: '';
+    margin-left: .06rem;
+    width: 0.14rem;
+    height: 0.23rem;
+    background: url(../images/bag_price.png);
+    background-size:0.14rem 0.23rem ;
+}
+.bd_nav_active{
+    color: #000 !important;
+
+}
+.bd_nav2{
+    margin-top: .4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.bd_nav2>p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .24rem;
+    /* text-align: center; */
+    line-height: .45rem;
+    width: 1.34rem;
+    height: 0.45rem;
+    background-color: #fff;
+    border-radius: .225rem;
+
+}
+.bd_nav2>p::after{
+    margin-left: .06rem;
+    content: '';
+    width: 0.16rem;
+    height: 0.12rem;
+    background: url(../images/xiala.png);
+    background-size:0.16rem 0.12rem;
+}

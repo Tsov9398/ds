@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100px;
+    /* height: 1000px; */
+    box-sizing: border-box;
+}
+body{
+    background-color: #f3f3f3;
+    background-image: url(../images/all_bg.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 6.65rem 4.27rem;
+}
+.w {
+    width: 6.87rem;
+    margin: 0 auto;
+}
+
+.fixed {
+    z-index: 999;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.all_footer {
+    background-color: #fff;
+    width: 100%;
+    height: 1.48rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    justify-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.all_footer>div {
+    width: 0.65rem;
+    height: 0.65rem;
+}
+
+.all_footer .home {
+    background: url(../images/home_.png);
+    background-size:0.4rem 0.65rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.all_footer .unuse {
+    background: url(../images/unuse.png);
+    background-size:0.59rem 0.66rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.all_footer .my {
+    background: url(../images/my.png);
+    background-size:0.39rem 0.65rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}

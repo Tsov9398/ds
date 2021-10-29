@@ -1,0 +1,48 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,button,input,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+	font-family: "PingFangSC","黑体",Arial,"Helvetica",;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+html,body{	
+	font-size: 100px;
+}
+
+body {
+    background-image: url(../images/bjt.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+header .top {
+	text-align: center;
+	position: relative;
+	padding-top: 1.2rem;
+}
+header .top h1 {
+	font-size: .55rem;
+}
+header .top img{
+	display: block;
+	width: 3.99rem;
+	height: .5rem;
+	position: absolute;
+	left: 50%;
+	top: 2.8rem;
+	transform: translateX(-50%);
+}

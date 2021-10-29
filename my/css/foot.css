@@ -1,0 +1,41 @@
+html, body {
+    font-size: 100px;
+    /* height: 1000px; */
+    box-sizing: border-box;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 54px;
+    left: 0;
+}
+
+.all_footer {
+    background-color: #fff;
+    width: 100%;
+    height: 1.48rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+.all_footer>div {
+    width: 0.65rem;
+    height: 0.65rem;
+}
+
+.all_footer .home>img {
+    width: 0.4rem;
+    height: 0.65rem;
+}
+
+.all_footer .unuse>img {
+    width: 0.59rem;
+    height: 0.66rem;
+}
+
+.all_footer .my>img {
+    width: 0.39rem;
+    height: 0.65rem;
+}
