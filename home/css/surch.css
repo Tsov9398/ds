@@ -94,6 +94,7 @@
 
  .record_head h3{
     font-size: .3rem;
+    font-weight: bolder;
     float: left;
     
 }
@@ -101,4 +102,43 @@
     float: right;
     width: 0.34rem;
     height: 0.34rem;
+}
+.mian_content{
+    margin-top: .28rem;
+    width: 100%;
+    font-size: .24rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.mian_content>p{
+    margin: .05rem 0;
+    font-weight: 500;
+    width:24% ;
+    text-align: center;
+}
+.mian_hot_record .mian_content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.mian_hot_record .mian_content>p{
+    width: 100% !important;
+    text-align: left !important;
+    margin-top: .1rem !important;
+}
+.mian_hot_record .mian_content p:nth-of-type(1) span{
+    color: #df9280;
+}
+.mian_hot_record .mian_content p:nth-of-type(2) span{
+    color: #f1afa0;
+}
+.mian_hot_record .mian_content p:nth-of-type(3) span{
+    color: #efc6bc;
+}
+.mian_hot_record .mian_content p  span{
+    color: #cccccc;
+    margin-right: .21rem;
+    
 }

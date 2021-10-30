@@ -8,9 +8,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/foot.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/index.css">
     <script src="../jquery/jquery.js"></script>
     <script src="../js/adapt.js"></script>
     <script src="js/home_.js"></script>
+    <script src="../swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="../swiper/swiper-bundle.min.css">
     <!-- 自适应 -->
 </head>
 
@@ -26,9 +29,9 @@
     </header>
     <div class="surch w">
         <div class="surch_">
-            <img src="images/surch.png" alt="">
-            <input type="text" placeholder="Louis Vuitton">
-            <img src="images/ALL.png" alt="">
+            <img class="surch_go" src="images/surch.png" alt="">
+            <input class="surch_go" type="text" placeholder="Louis Vuitton">
+            <img class="all_kind" src="images/ALL.png" alt="">
 
         </div>
     </div>
@@ -52,15 +55,54 @@
         <div class="nz">女装</div>
     </div>
     <!-- banner -->
-    <div class="banner w">
-        <img src="images/home_banner.png" alt="">
+
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="banner w">
+                    <img src="images/home_banner.png" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="banner w">
+                    <img src="images/home_banner2.png" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="banner w">
+                    <img src="images/home_banner3.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
     </div>
+
+    <!-- Swiper JS -->
+    <script src="../package/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+                
+            },
+            loop : true,
+            autoplay:true,
+        });
+    </script>
+
+
+
+
 
     <!-- 拍卖 -->
     <div class="auction w">
         <div class="auc_head">
             <p><span>0</span>元拍卖</p>
-            <p>距结束47:31:46 <img src="images/0y-right.png" alt=""></p>
+            <p class="s_rand">加载中... </p>
         </div>
         <div class="box_0y">
             <div class="box1">
@@ -99,8 +141,8 @@
         <div class="good_mo w">
 
             <div class="good_moods">
-                <div class="good_xin"><img src="images/xin2.png" alt=""></div>
-                <img class="g_pic" src="images/hw-1.png" alt="">
+                <div class="good_xin"><img class="xinxin" src="images/xin2.png" alt=""></div>
+                <div class="g_pic"></div>
                 <div class="g_content">
                     <p>S级 Chanel</p>
                     <!-- </br> -->
@@ -119,8 +161,8 @@
 
 
             <div class="good_moods">
-                <div class="good_xin"><img src="images/xin.png" alt=""></div>
-                <img class="g_pic" src="images/hw-2.png" alt="">
+                <div class="good_xin"><img class="xinxin" src="images/xin.png" alt=""></div>
+                <div class="g_pic"></div>
                 <div class="g_content">
                     <p>SS级 Louis Vuitton</p>
                     <!-- </br> -->
@@ -139,8 +181,8 @@
 
 
             <div class="good_moods">
-                <div class="good_xin"><img src="images/xin.png" alt=""></div>
-                <img class="g_pic" src="images/hw-3.png" alt="">
+                <div class="good_xin"><img class="xinxin" src="images/xin.png" alt=""></div>
+                <div class="g_pic"></div>
                 <div class="g_content">
                     <p>SS级 Acne Studios</p>
                     <!-- </br> -->
@@ -159,8 +201,8 @@
 
 
             <div class="good_moods">
-                <div class="good_xin"><img src="images/xin.png" alt=""></div>
-                <img class="g_pic" src="images/hw-4.png" alt="">
+                <div class="good_xin"><img class="xinxin" src="images/xin.png" alt=""></div>
+                <div class="g_pic"></div>
                 <div class="g_content">
                     <p>A级 Prada</p>
                     <!-- </br> -->
@@ -174,6 +216,7 @@
                     <div class="time_price"><img src="images/time_price.png" alt=""></div>
                     <div class="g_juan"><img src="images/150yj.png" alt=""></div>
                 </div>
+                
 
 
 

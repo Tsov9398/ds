@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.auc_header {
+    margin-bottom:1.18rem ;
+    position: relative;
+    width: 100%;
+    height: 4.14rem;
+    background: url(../images/pm_header.png) no-repeat;
+    background-size: 100% 4.14rem;
+}
+.pm_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pm_my {
+    color: #fff;
+    font-size: .24rem ;
+    float: right ;
+}
+.pm_back{
+    float: left;
+}
+.pm_back>img{
+    width: 0.22rem;
+    height: 0.39rem;
+}
+.pm_kind_box{
+    width: 100%;
+    position: absolute;
+    bottom: -.68rem ;
+}
+.pm_kind{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pm_kind>.box{
+    width: 1.34rem;
+    height: 1.59rem;
+    background-color: #fff;
+    box-shadow: .01rem .01rem .12rem rgb(122, 122, 122);
+    font-size: .3rem;
+    font-weight: 5 00;
+    text-align: center;
+    line-height: 2.59rem;
+
+}
+
+.pm_kind .box:nth-of-type(1){
+    background-image: url(../images/pm_moods_1.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: .99rem .99rem;
+}
+.pm_kind .box:nth-of-type(2){
+    background-image: url(../images/pm_moods_2.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 1.03rem 1.03rem;
+}
+.pm_kind .box:nth-of-type(3){
+    background-image: url(../images/pm_moods_3.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 1.04rem 1.04rem;
+}
+
+.bd_nav{
+    font-weight: 600;
+    margin-top: .6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bd_nav p{
+    font-size: .3rem;
+    color: #aaaaaa;
+}
+.bd_nav p:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bd_nav_active{
+    color: #000 !important;
+
+}
+.bd_nav2{
+    font-weight: 600;
+    margin-top: .4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.bd_nav2>p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .24rem;
+    /* text-align: center; */
+    line-height: .45rem;
+    width: 1.34rem;
+    height: 0.45rem;
+    background-color: #fff;
+    border-radius: .225rem;
+
+}
+.bd_nav2>p::after{
+    margin-left: .06rem;
+    content: '';
+    width: 0.16rem;
+    height: 0.12rem;
+    background: url(../images/xiala.png);
+    background-size:0.16rem 0.12rem;
+}
+
+
+
+/* 商品图片 */
+
+.good_moods:nth-of-type(1) .g_pic{
+    background: url(../images/pm_moods_4.png) no-repeat;
+    background-size: 140%;
+    background-position: center;
+}
+.good_moods:nth-of-type(2) .g_pic{
+    background: url(../images/pm_moods_5.png) no-repeat;
+    background-size: 140%;
+    background-position: center;
+}
+.good_moods:nth-of-type(3) .g_pic{
+    background: url(../images/pm_moods_6.png) no-repeat;
+    background-size: 140%;
+    background-position: center;
+}
+.good_moods:nth-of-type(4) .g_pic{
+    background: url(../images/pm_moods_7.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.good_moods:nth-of-type(5) .g_pic{
+    background: url(../images/pm_moods_8.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.good_moods:nth-of-type(6) .g_pic{
+    background: url(../images/pm_moods_9.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.good_moods .g_pic>img{
+    width: 100%;
+    
+}
+
+
+
+/* 商品展示 */
+
+
+.good_mo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.good_moods {
+    position: relative;
+    margin-top: .31rem;
+    width: 3.32rem;
+    height: 4.5rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    justify-content: center;
+}
+
+.good_moods .g_pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .34rem;
+    margin-top: .53rem;
+    /* z-index: -1; */
+    width: 1.88rem;
+    height: 1.75rem;
+}
+.g_content p:nth-of-type(1) {
+    font-size: .3rem;
+    font-weight: 600;
+}
+
+.g_content p:nth-of-type(2) {
+    font-size: .22rem;
+    color: #aaaaaa;
+}
+.pm_foot{
+    width: 100%;
+    height: 0.32rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pm_buy{
+    text-align: center;
+    width: 0.9rem;
+    height: 0.32rem;
+    font-size: .2rem;
+    color: #fff;
+    border-radius: .16rem;
+    background-color: rgb(54, 54, 54);
+}
+
+.g_content2 {
+    width: 80%;
+    margin-top: .12rem;
+    /* float: left; */
+    
+}
+
+.g_content2 p{
+    font-size: .22rem;
+   
+    color: rgb(187, 10, 10);
+}
+.g_content2 p span{
+    font-size: .36rem;
+}
+
+.g_content2 p:nth-of-type(2) {
+    margin-left: .11rem;
+    font-size: .18rem;
+    line-height: .5rem;
+    float: left;
+    color: #aaaaaa;
+}
+
+.g_fprice {
+    /* justify-content: start; */
+    margin: 0 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 0.36rem;
+    width: 2.23rem;
+}
+
+.time_price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0.36rem;
+    width: 1.04rem;
+}
+
+.time_price>img {
+    width: 1.04rem;
+}
+
+.g_juan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.g_juan, .g_juan>img {
+    width: 1.01rem;
+    grid-template: 0.36rem;
+}
+
+.good_xin{
+    box-sizing: border-box;
+    font-size: .22rem;
+    font-weight: 600;
+    color: #c14e3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 0.3rem;
+    padding: .1rem .04rem;
+    position: absolute;
+    left: .3rem;
+    top: .16rem;
+    border: .02rem solid #ffdfcf;
+}
+.good_xin>img{
+    width: 0.4rem;
+    height: 0.35rem;
+}

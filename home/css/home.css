@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    height: 30rem;
+    height: 22.4rem;
 }
 
 input:focus {
@@ -231,6 +231,9 @@ header .home_message>img {
     height: 0.31rem;
 }
 
+
+/* 商品展示 */
+
 .good_mo {
     display: flex;
     justify-content: space-between;
@@ -250,13 +253,15 @@ header .home_message>img {
 }
 
 .good_moods .g_pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: .34rem;
     margin-top: .53rem;
     /* z-index: -1; */
     width: 1.88rem;
     height: 1.75rem;
 }
-
 .g_content p:nth-of-type(1) {
     font-size: .3rem;
     font-weight: 600;

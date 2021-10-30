@@ -1,0 +1,329 @@
+.ify_main {
+    width: 100%;
+    height: 200vh;
+    margin-top: .4rem;
+}
+
+.ify_main .main_left {
+    float: left;
+}
+
+.ify_main .main_left ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: .32rem;
+}
+
+.ify_main .main_left ul li {
+    font-size: .3rem;
+    color: #9f9f9f;
+    list-style: none;
+    width: 1.4rem;
+    height: 0.86rem;
+}
+
+.ify_active {
+    font-size: .3rem;
+    color: black !important;
+    font-weight: 600;
+}
+
+.ify_main .main_right {
+    box-sizing: border-box;
+    padding: .2rem .28rem;
+    float: left;
+    margin-left: .3rem;
+    background-color: #fff;
+    height: 100%;
+    width: 5.48rem;
+    border-radius: 8px;
+}
+
+.main_right .hot_tj {
+    margin-top: .2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_right .hot_tj .box2 {
+    position: relative;
+    width: 1.22rem;
+    height: 1.52rem;
+    background-color: #fff;
+}
+
+.main_right .hot_tj .box2 p {
+    width: 100%;
+    font-size: .22rem;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    /* text-align: center; */
+    bottom: -.1rem;
+    /* margin-top: ; */
+}
+
+.main_right .hot_tj .box2:nth-of-type(1) {
+    background-image: url(../images/classify_head1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.main_right .hot_tj .box2:nth-of-type(2) {
+    background-image: url(../images/classify_head2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.main_right .hot_tj .box2:nth-of-type(3) {
+    background-image: url(../images/classify_head3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.pp_logo {
+    margin-top: .6rem;
+}
+
+.pp_logo>h3 {
+    margin-bottom: .46rem;
+}
+
+.pp_logo .box3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pp_logo .box3>div {
+    width: 1.4rem;
+    height: 1rem;
+}
+
+.pp_logo .box3 div:nth-of-type(1) {
+    background-image: url(../images/classify_logo1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.pp_logo .box3 div:nth-of-type(2) {
+    background-image: url(../images/classify_logo2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.pp_logo .box3 div:nth-of-type(3) {
+    background-image: url(../images/classify_logo3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+
+.pp_logo .box3 div:nth-of-type(4) {
+    background-image: url(../images/classify_logo4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+}
+
+.pp_logo .box3 div:nth-of-type(5) {
+    background-image: url(../images/classify_logo5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+}
+
+.pp_logo .box3 div:nth-of-type(6) {
+    background-image: url(../images/classify_logo6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.pp_logo .box3 div:nth-of-type(7) {
+    background-image: url(../images/classify_logo7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.pp_logo .box3 div:nth-of-type(8) {
+    background-image: url(../images/classify_logo8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.pp_logo .box3 div:nth-of-type(9) {
+    background-image: url(../images/classify_logo9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.pp_logo .box3 div:nth-of-type(10) {
+    background-image: url(../images/classify_logo10.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.pp_logo .box3 div:nth-of-type(11) {
+    background-image: url(../images/classify_logo11.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.pp_logo .box3 div:nth-of-type(12) {
+    background-image: url(../images/classify_logo12.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+
+.pp_logo .box3 div:nth-of-type(13) {
+    background-image: url(../images/classify_logo13.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.pp_logo .box3 div:nth-of-type(14) {
+    background-image: url(../images/classify_logo14.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.pp_logo .box3 div:nth-of-type(15) {
+    background-image: url(../images/classify_logo15.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+
+.pp_logo .box3 div:nth-of-type(16) {
+    background-image: url(../images/classify_logo16.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.pp_logo .box3 div:nth-of-type(17) {
+    background-image: url(../images/classify_logo17.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.pp_logo .box3 div:nth-of-type(18) {
+    background-image: url(../images/classify_logo18.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.bd_kind {
+    margin-bottom: .3rem;
+}
+
+.box4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box4>div {
+    position: relative;
+    width: 1.56rem;
+    height: 1.86rem;
+}
+
+.box4 div>p {
+    width: 100%;
+    font-size: .22rem;
+    text-align: center;
+    position: absolute;
+    bottom: -.1rem;
+}
+
+.box4 div:nth-of-type(1) {
+    background-image: url(../images/classify_kind1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.box4 div:nth-of-type(2) {
+    background-image: url(../images/classify_kind2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.box4 div:nth-of-type(3) {
+    background-image: url(../images/classify_kind3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.box4 div:nth-of-type(4) {
+    background-image: url(../images/classify_kind4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.box4 div:nth-of-type(5) {
+    background-image: url(../images/classify_kind5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.box4 div:nth-of-type(6) {
+    background-image: url(../images/classify_kind6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.box4 div:nth-of-type(7) {
+    background-image: url(../images/classify_kind7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.box4 div:nth-of-type(8) {
+    background-image: url(../images/classify_kind8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.box4 div:nth-of-type(9) {
+    background-image: url(../images/classify_kind9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.box4 div:nth-of-type(10) {
+    background-image: url(../images/classify_kind10.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.box4 div:nth-of-type(11) {
+    background-image: url(../images/classify_kind11.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.box4 div:nth-of-type(12) {
+    background-image: url(../images/classify_kind12.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}

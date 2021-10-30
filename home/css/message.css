@@ -1,0 +1,24 @@
+.surch_head>p {
+    width: 100%;
+    font-size: .34rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.none {
+    margin: 0 auto;
+    margin-top: 3rem !important;
+    width: 3.56rem;
+    height: 2.64rem;
+    background-image: url(../images/nomessage.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+p.xt{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: .6rem !important;
+    font-size: .24rem !important;
+    color: #999999 !important;
+}
